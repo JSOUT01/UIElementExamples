@@ -13,8 +13,9 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
-        tools:layout_editor_absoluteX="124dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <Button
         android:id="@+id/button"
@@ -25,7 +26,7 @@
         android:elevation="0dp"
         android:fontFamily="monospace"
         android:lineSpacingExtra="12sp"
-        android:text="KILL ME"
+        android:text="PRESS ME"
         android:textAllCaps="false"
         android:textColor="@android:color/darker_gray"
         android:textSize="14sp"
@@ -44,7 +45,6 @@
         android:lineSpacingExtra="12sp"
         android:text="TAKE ME"
         android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-        android:textColor="@android:color/holo_orange_light"
         android:typeface="serif"
         app:layout_constraintBottom_toTopOf="@+id/editText"
         app:layout_constraintEnd_toEndOf="@+id/editText"
@@ -57,7 +57,6 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="138dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:text="Name"
         android:typeface="sans"
         app:layout_constraintBottom_toTopOf="@+id/textView3"
